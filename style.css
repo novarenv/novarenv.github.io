@@ -1,0 +1,217 @@
+/*untuk layar device berukuran kecil*/
+@media screen and (min-width: 450px) and (max-width: 550px) {
+    #menu {
+        padding-left: 0;
+    }
+    #menu-item {
+        width: 100%;
+        height: 100%;
+    }
+}
+  
+ /*untuk layar device berukuran sedang*/
+@media screen and (min-width: 550px) and (max-width: 800px){
+    #menu-item {
+        width: 100%;
+    }
+ }
+  
+ /*untuk layar device berukuran besar*/
+@media screen and (min-width: 800px) {
+
+    #menu-item {
+        width: 10%;
+        height: 100%;
+    }
+}
+
+body {
+    background-color: beige;
+    padding: 10;
+    padding-right: 30;
+    font-family: metropolisRegular;
+}
+
+@font-face {
+    font-family: metropolisRegular;
+    src: url(src/fonts/Metropolis-master/Metropolis-Regular.otf);
+}
+
+#menu {
+    width: 100%;
+    height: 50px;
+    display: table;
+    padding-left: 60%;
+    margin-bottom: 20;
+    margin: 10 10 10 10;
+    position: fixed;
+}
+
+#menu-item {
+    display: inline-table;
+    color: darkgray;
+    font-size: 24;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+#menu-item:hover {
+    color: black;
+}
+
+.profiles{
+    width: 100%;
+    height: 400;
+    display: block;
+    position: relative;
+    margin-top: 40;
+}
+
+.crop-circle {
+    border-radius: 50%;
+}
+
+#img-profile {
+    position: absolute;
+    margin-left: 40;
+}
+
+#profile {
+    margin-left: 400;
+    font-size: 28;
+    position: absolute;
+    color: black;
+}
+
+#profile h3 {
+    color: darkgray;
+}
+
+#h1Skills {
+    text-align: center;
+    font-size: 64px;
+}
+
+.skills {
+    width: 100%;
+    height: 400;
+    margin-bottom: 20;
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#skill {
+    width: 20%;
+    height: 80%;
+    text-align: center;
+}
+
+#img-skill {
+    width: 140;
+    height: 140;
+}
+
+#h1Portofolio {
+    font-size: 32;
+    text-align: center;
+}
+
+#portofolio {
+    font-size: 16;
+}
+
+#img-portofolio {
+    width: 30%;
+    height: 100%;
+}
+
+#img-portofolio:hover {
+    cursor: pointer;
+}
+
+#h1Experience {
+    font-size: 32;
+    text-align: center;
+}
+
+#experiences {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    position: relative;
+    overflow: auto;
+    overflow-y: hidden;
+    -ms-overflow-y: hidden;
+}
+
+#experience {
+    width: 60%;
+    height: 60%;
+    background-color: darkgray;
+    font-size: 16;
+    padding: 16;
+    margin-left: 10;
+    margin-right: 10;
+}
+
+#h1Contact {
+    font-size: 32;
+    text-align: center;
+}
+
+.contacts {
+    width: 100%;
+    height: 150;
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact {
+    width: 20%;
+    height: 80%;
+    color: darkgray;
+    text-align: center;
+    text-decoration: none;
+}
+
+#contact:hover {
+    color: black;
+}
+
+#contact-mail {
+    width: 100%;
+    height: 60;
+    font-size: 16;
+    text-align: center;
+}
+
+#img-contact {
+    width: 50;
+    height: 50;
+}
+
+#kukurusus {
+    width: 50%;
+    height: 100%;
+    display: block;
+    font-size: 28;
+    margin-left: 25%;
+    text-align: center;
+    align-content: center;
+}
+
+#kukurusus h2 {
+    font-size: 27;
+    color: darkgray;
+}
+
+.marginBottom {
+    margin-bottom: 52;
+}

@@ -1,37 +1,131 @@
-<!DOCTYPE html>
-<!-- saved from url=(0038)http://novarenv.it.student.pens.ac.id/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<html>
+    <head>
+        <title>Novaren Veraldo</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"> </script>
     </head>
     <body>
-        <ol>
-            <b><li> Judul Homepage : Homepage Pribadi</li></b>
-            <b><li> Tampilan : </li></b>
-            <ol>
-                <li> Nama : Novaren Veraldo</li>
-                <li> NRP : 2110171058</li>
-                <li> Kelas : 1 D4 IT B</li>
-                <li> Tempat/Tanggal Lahir : Surabaya/27 November 1999</li>
-                <li> Alamat :</li>
-                    <dd>Jl. Manyar Tegal 69</dd>
-                    <dd>Surabaya, Jawa Timur</dd>
-                <li> Riwayat Pendidikan :</li>
-                    <ol type="A">
-                        <li> SD   : SDN Kalisari II No. 513</li>
-                        <li> SMP  : SMPN 1 Surabaya</li>
-                        <li> SMA  : SMAN 5 Surabaya</li>
-                    </ol>
-                <li> Email : <a href="mailto:novarenv@gmail.com">novarenv@gmail.com</a></li>
-                <li> Homepage : <a href="https://www.novarenv.blogspot.com/" target="_blank">novarenv.blogspot.com</a></li>
-                <li> Hobby</li>
-                    <ol type="A">
-                        <li>Bermain Game</li>
-                        <li>Melihat Anime</li>
-                        <li>Membaca Manga</li>
-                    </ol>
-                <hr>
-                <li> Diskirpsi Pribadi Saya :</li>
-                <a>Saya adalah seorang apatis, suka menyendiri, berkulit sawo matang, tinggi standar, dan tertutup</a>
-            </ol>
-        </ol>
-    
-</body></html>
+        <div id="menu"> 
+            <a id="menu-item" href="#h1Contact"><div>Contact</div></a>
+            <a id="menu-item" href="#h1Experience"><div>Experience</div></a>
+            <a id="menu-item" href="#h1Portofolio"><div>Portofolio</div></a>
+            <a id="menu-item" href="#h1Profile"><div>Profile</div></a>
+        </div>
+
+        <div class="profiles">
+            <div id="img-profile">
+                <img src="src/img/fotoDiri.PNG" alt="Foto Diri">
+            </div>
+            <div id="profile">
+                <h1>Novaren Veraldo</h1>
+                <h3>Student at EEPIS Informatics Engineering</h3>
+            </div>
+        </div>
+        
+        <h1 id="h1Skills">Understands</h1>
+        <div class="skills">
+            <div id="skill">
+                <img id="img-skill" src="src/img/javaLogo.png" alt="Icon Skill">
+                <h1>Java</h1>
+            </div>
+            <div id="skill">
+                <img id="img-skill" src="src/img/androidLogo.png" alt="Icon Skill">
+                <h1>Android Java</h1>
+            </div>     
+            <div id="skill">
+                <img id="img-skill" src="src/img/html5Logo.png" alt="Icon Skill">
+                <h1>HTML</h1>
+            </div>
+            <div id="skill">
+                <img id="img-skill" src="src/img/githubLogo.png" alt="Icon Skill">
+                <h1>Git</h1>
+            </div>
+            <div id="skill">
+                <img id="img-skill" src="src/img/trelloLogo.png" alt="Icon Skill">
+                <h1>Trello</h1>
+            </div>
+        </div>
+
+        <div id="h1Portofolio">
+            <h1>Works Done</h1>
+            <div id="portofolio" onclick="bukaHalaman()">
+                    <img id="img-portofolio" src="src/img/Kukurusus/kukurususHome.jpg" alt="Kukurusus">
+                    <h1>Kukurus.us</h1>
+                </div>
+        </div>
+
+        <div id="h1Experience">
+            <h1>My Experiences</h1>
+            <div id="experiences">
+                <div id="experience">
+                    <h1>Academic Background</h1>
+                    <h3>D4 EEPIS Informatics Engineering 2017-2021</h3>
+                    <h3>SMAN 5 Surabaya 2014-2017</h3>
+                    <h3>SMPN 1 Surabaya 2011-2014</h3>
+                    <h3>SDN Kalisari II Surabaya 2005-2011</h3>
+                </div>
+                <div id="experience">
+                    <h1>Training Experience</h1>
+                    <h3>Latihan Kepemimpinan Pra-TD dan TD PENS 2017</h3>
+                    <h3>Pelatihan Streering Comitee Himpunan Mahasiswa Teknik Informatika PENS 2018</h3>
+                    <h3>Integrasi PENS 2018</h3>
+                    <h3>Belajar Membuat Aplikasi Android untuk Pemula Dicoding 2019</h3>
+                    <h3>Memulai Pemrograman dengan Kotlin</h3>
+                    <h3>DSC PENS Campus Roadshow Program 2019</h3>
+                </div>
+                <div id="experience">
+                    <h1>Organization Experience</h1>
+                    <h3>Member of Palang Merah Remaja Lima SMAN 5 Surabaya 2014-2017</h3>
+                    <h3>Member of Mosque Management Division Sub Seksi Kerohanian Islam SMAN 5 Surabaya 2014-2015</h3>
+                    <h3>Head of Mosque Management Division Sub Seksi Kerohanian Islam SMAN 5 Surabaya 2015-2016</h3>
+                    <h3>Member of Worker Unit Majelis Permusyawaratan Kelas SMAN 5 Surabaya 2015-2016</h3>
+                    <h3>Member of Research and Technology Himpunan Mahasiswa Teknik Informatika PENS 2018</h3>
+                </div>
+                <div id="experience">
+                    <h1>Achievement</h1>
+                    <h3>KMIPN Finalist at E-Goverment Field</h3>
+                    <h3>Best DSC Google Assistance Class</h3>
+                </div>
+            </div>
+        </div>
+
+        <div id="h1Contact">
+            <h1>Find me!</h1>
+        </div>
+        <div class="contacts">
+            <a id="contact" href="https://github.com/novarenv" target="_blank">
+                <div>
+                    <img id="img-contact" src="src/img/githubLogo.png" alt="Icon Skill">
+                    <h1>Github</h1>
+                </div>
+            </a>
+            <a id="contact" href="https://www.linkedin.com/in/novaren-veraldo-a8bb64114/" target="_blank">
+                <div>
+                    <img id="img-contact" src="src/img/linkedInLogo.png" alt="Icon Skill">
+                    <h1>LinkedIn</h1>
+                </div>
+            </a>
+            <a id="contact" href=" https://www.instagram.com/novarenv/" target="_blank">
+                <div>
+                    <img id="img-contact" src="src/img/instagramLogo.png" alt="Icon Skill">
+                    <h1>Instagram</h1>
+                </div>
+            </a>
+            <a id="contact" href="https://medium.com/@novarenv" target="_blank">
+                <div>
+                    <img id="img-contact" src="src/img/mediumLogo.png" alt="Icon Skill">
+                    <h1>Medium</h1>
+                </div>
+            </a>
+            <a id="contact" href="https://www.youtube.com/channel/UCMJORID0vCSQ97nuNuehtCw?view_as=subscriber" target="_blank">
+                <div>
+                    <img id="img-contact" src="src/img/youtubeLogo.png" alt="Icon Skill">
+                    <h1>Youtube</h1>
+                </div>
+            </a>
+        </div>
+        <div id="contact-mail">
+            <h1>novarenv@gmail.com</h1>
+        </div>
+    </body>
+</html>
